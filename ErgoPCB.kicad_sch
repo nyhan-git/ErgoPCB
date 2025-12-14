@@ -3381,7 +3381,7 @@
 		(uuid "f242ab3d-9ba1-4126-98e9-9eb8bc645af9")
 	)
 	(no_connect
-		(at 226.06 111.76)
+		(at 222.25 111.76)
 		(uuid "f55622d6-3e74-4d0e-80c4-e7c6d8724e94")
 	)
 	(no_connect
@@ -3760,6 +3760,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 111.76) (xy 231.14 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbb94798-45eb-4666-9f13-3cce8e26eb6c")
+	)
+	(wire
+		(pts
 			(xy 248.92 59.69) (xy 248.92 60.96)
 		)
 		(stroke
@@ -3817,16 +3827,6 @@
 			(type default)
 		)
 		(uuid "e0d55829-b956-406d-aa4a-7f54ec913f31")
-	)
-	(wire
-		(pts
-			(xy 226.06 111.76) (xy 231.14 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e42872e2-a327-4e4d-8cd0-d6af0dbf3bf1")
 	)
 	(wire
 		(pts
@@ -4028,8 +4028,8 @@
 		)
 		(uuid "e6ed2190-144f-4f4c-9ff5-efbcc5084c41")
 	)
-	(label "pls dont connect to randon things again thanks"
-		(at 226.06 111.76 90)
+	(label "    pls dont connect to randon things again thanks"
+		(at 223.52 111.76 90)
 		(effects
 			(font
 				(size 0.2 0.2)
@@ -7508,9 +7508,8 @@
 		)
 	)
 	(sheet
-		(at 95.25 63.5)
+		(at 95.25 62.23)
 		(size 49.53 25.4)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -7521,7 +7520,7 @@
 		)
 		(uuid "08817273-d2be-4e57-8ae5-77628a8d07ca")
 		(property "Sheetname" "Matrix"
-			(at 95.25 62.7884 0)
+			(at 96.266 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7531,7 +7530,7 @@
 			)
 		)
 		(property "Sheetfile" "Matrix.kicad_sch"
-			(at 95.25 89.4846 0)
+			(at 95.25 88.2146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
