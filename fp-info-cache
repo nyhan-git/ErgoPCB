@@ -1,4 +1,4 @@
-26153148973806548
+26154918957881619
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -73939,6 +73939,13 @@ Molex Pico-EZmate series connector, 78171-0004 (http://www.molex.com/pdm_docs/sd
 connector Molex Pico-EZmate side entry
 0
 18
+5
+PCM_marbastlib-various
+Molex_Pico-EZmate_78171-0004_1x04-1MP_P1.20mm_Vertical_No_Through_Hole
+Molex Pico-EZmate series connector, 78171-0004 (http://www.molex.com/pdm_docs/sd/781710004_sd.pdf)
+connector Molex Pico-EZmate side entry
+0
+8
 5
 PCM_marbastlib-various
 Molex_Pico-EZmate_78171-0005_1x05-1MP_P1.20mm_Vertical

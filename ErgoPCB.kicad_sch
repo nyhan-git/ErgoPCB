@@ -6412,7 +6412,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-various:Molex_Pico-EZmate_78171-0004_1x04-1MP_P1.20mm_Vertical"
+		(property "Footprint" "PCM_marbastlib-various:Molex_Pico-EZmate_78171-0004_1x04-1MP_P1.20mm_Vertical_No_Through_Hole"
 			(at 29.21 46.99 0)
 			(effects
 				(font

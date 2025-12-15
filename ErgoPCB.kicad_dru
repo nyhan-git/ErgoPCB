@@ -53,8 +53,8 @@
 
 # 2-layer standard
 (rule "Minimum Via Diameter and Hole Size"
-(constraint hole_size (min 0.3mm))
-(constraint via_diameter (min 0.5mm))
+(constraint hole_size (min 0.15mm))
+(constraint via_diameter (min 0.25mm))
 (condition "A.Type == 'via'"))
 
 # 4-layer standard
@@ -119,11 +119,11 @@
 (condition "A.Type == 'via' && B.Type == 'track'"))
 
 (rule "via to via clearance (same nets)"
-(constraint hole_to_hole (min 0.254mm))
+(constraint hole_to_hole (min 0.2mm))
 (condition "A.Type == 'via' && B.Type == A.Type && A.Net == B.Net"))
 
 (rule "pad to pad clearance (with hole, different nets)"
-(constraint hole_to_hole (min 0.5mm))
+(constraint hole_to_hole (min 0.45mm))
 (condition "A.Type == 'pad' && B.Type == A.Type && A.Net != B.Net"))
 
 (rule "pad to pad clearance (without hole, different nets)"
